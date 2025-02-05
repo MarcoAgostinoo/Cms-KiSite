@@ -62,6 +62,16 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedTeste1 extends Struct.ComponentSchema {
+  collectionName: 'components_shared_teste1s';
+  info: {
+    displayName: 'teste1';
+  };
+  attributes: {
+    dateteste: Schema.Attribute.Date;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -70,6 +80,7 @@ declare module '@strapi/strapi' {
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.teste1': SharedTeste1;
     }
   }
 }

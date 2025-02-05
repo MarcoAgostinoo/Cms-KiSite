@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_teste1s",
+  "info": {
+    "displayName": "teste1"
+  },
+  "options": {},
+  "attributes": {
+    "dateteste": {
+      "type": "date"
+    }
+  }
+}
