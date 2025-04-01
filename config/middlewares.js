@@ -6,7 +6,7 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'connect-src': ["'self'", 'http://localhost:3000'],
+          'connect-src': ["'self'", 'http://localhost:3000', 'https://www.kisite.com.br/'],
         },
       },
     },
